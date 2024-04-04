@@ -1,0 +1,24 @@
+.population-chart {
+    width: 100%;
+    max-width: 35vw;
+    height: auto;
+    border-radius: 5px;
+    padding: 1em; 
+  }
+
+  
+  .chart-container {
+    width: 100%;
+    margin: 20px auto;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 768px){
+    .population-chart{
+      width: 100%;
+      min-width: 200px;
+      font-family: "Old Standard TT", serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
